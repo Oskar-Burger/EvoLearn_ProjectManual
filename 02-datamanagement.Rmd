@@ -1,0 +1,326 @@
+---
+editor_options: 
+  markdown: 
+    wrap: sentence
+---
+
+# Data Management {#datamanage}
+
+\chapter{Data management}
+
+\section{Purpose}
+
+## Purpose
+
+Project EvoLearn is a large cross-cultural project with complex protocols and several collaborators collecting data. These factors present a number of data management challenges. In order to facilitate comparison and easy linking of data across sites, as well as efficient and secure archiving, Project EvoLearn incorporates a number of handling conventions, summarized here. 
+
+\section{File Storage}
+
+## File Storage
+
+All project personnel should have access to the password protected EvoLearn space \href{ https://utexas.app.box.com/folder/50261700018}{on UTbox}.
+Within this UTBox directory are a series of folders broken-out by fieldsite and type of data. EvoLearn team members who collect data are expected to submit finalized, edited, files in .xlsx to this folder. Data should be entered using current data entry templates, which are also found in UTBox. After submission, the files will be checked for errors and consistency. Some basic errors can be easily corrected by the central staff, but the files may be returned to the researcher who submitted the file for correction or questions. 
+
+\subsection{Backup files}
+All team members are required to back up data files, even when working in remote areas without regular internet access. The guidelines for adequate in-field backup are as follows: 
+\begin{itemize}
+    \item a file is backed-up when it is saved on three different devices. Ideally, these devices should be stored in different places so that an unfortunate event like an untimely theft\footnote{you know, as opposed to timely theft.} or other catastrophe would not remove all three of the backups. 
+    \item scans or photos of data sheets should be taken daily and backed-up. This can be done with a camera or with a smartphone app such as Docscan. Docscan (or similar) tend to be slower to use but export as pdfs. Please make sure that the images are saved regularly (daily) and that they are clear and legible. There is no doubt that the images of the original data forms will need to be referenced during data entry, validation, and analysis as questions arise. %\\
+    % other ways about how to best do this. Lydia and Em said that some of their forms were blurry. Let's put our heads together and come up with the best system. 
+    \item the original paper forms should be saved, protected, and stored. They will be archived and are not meant to be destroyed, even after the scans are saved and checked. 
+\end{itemize}
+
+Within UTbox is a file structure broken down as follows:
+base folder < field site (codes are in the file naming spreadsheet ~\ref{sec:FileName} < file class (scanned score sheets, videos and photos of testing, data sheets (the .xlsx files based on the data entry templates). 
+
+Please note that the Participant Survey and PID Registry are stored in a different location. 
+
+\section{File Naming, Dates, and Researcher Initials}
+\label{sec:FileName}
+A spreadsheet (named ``FileNaming.xlsx'') was prepared for all EvoLearn project members and posted \href{https://utexas.app.box.com/folder/51257105589}{this UTbox folder}. This spreadsheet has two sheets. FileNameCodes give the codes to be used in the file names. For fieldsites, data types, and researchers, only the official codes in this spreadhseet should be used to name files.  
+The second sheet, called `README', gives some explanation about the naming conventions and a few examples.  
+
+The file name standards are as follows: 
+\begin{itemize}
+    \item For data files, or data entered into the excel sheet templates:\\ fieldcode\_researcherinitial\_datatype\_date
+    \item For videos or archived images of datasheets on individuals:\\ fieldcode\_researcherinitial\_datatype\_PID\_date
+    \item For files that require multiple pages:\\ 
+    fieldcode\_researcherinitial\_datatype\_PID\_Page\_date \\ 
+    with Page as p\# - NOTE: this means that the first page of the scan is p1, the second is p2, etc; lower case p.
+    \item Ideally, videos of tasks will be one participant and one task per named video. In the event that videos have multiple parts, use a rule similar to scans with multiple parts: \\ 
+    fieldcode\_researcherinitial\_datatype\_PID\_Part1\_date \\
+    fieldcode\_researcherinitial\_datatype\_PID\_Part2\_date \\
+    ...etc.
+    with as p\# - NOTE: this means that the first page of the scan is p1, the second is p2, etc; lower case p.
+    \item Some tasks have a teacher and a student (chid/peer knot and caregiver knot), with each having their own PIDs. For these cases the file naming system is the same as above but with PID student first and then PID teacher second.\\
+    fieldcode\_researcherinitial\_datatype\_PIDstudent\_PIDteacher\_date \\ 
+
+
+\end{itemize}
+
+\textbf{Example:}
+Dr. Emily Messer is working in Tanna, Vanuatu and has just finished the final entered data set on the participant survey. 
+Emily consults the FileNaming spreadsheet (or looks at \ref{tab:taskabrev} and \ref{tab:siteabrev}) and sees that her field site code is TA, her official initials are EM, and that the code for participant survey is PARTSURV (important: do not make up your own initials -- these are assigned in one official location so that there is no confusion about which researchers go with which initials). 
+Further, she notes the format for dates as two digit day, three letter month, four digit year.
+\newline 
+This file name is:
+\newline
+TA\_EM\_PARTSURV\_13JUL2018  
+\newline
+If the archival image of this file requires multiple pages, page 2 would be:
+TA\_EM\_PARTSURV\_p2\_13JUL2018  
+\newline
+The video for Emily doing Phonological Recall with participant WRTX:\newline
+TA\_EM\_PHRE\_WRTX\_13JUL2018  
+\newline
+The video for Emily doing a caregiver knot with student YWMB and teacher KJ4J:\newline
+TA\_EM\_CRGKNT\_YWMB\_KJ4J\_17JUL2018
+\newline
+
+\subsection {File Naming Exception for Batch Processing Scoresheets}
+The convenience of making digital (pdf) copies of the paper scoresheets is highly dependent on the technology available. But making sure that there are good copies is absolutely essential. In some cases people may be able to scan many pages of scoresheets in one large batch. Because of the time it would take to divide these up for each participant or task, it is fine to submit batch scanned scoresheets. 
+In such cases, we ask that collaborators follow the following guidelines: 
+\begin{itemize}
+    \item use file naming conventions in line with those above, but with a labeled batch number for each file that contains multiple scoresheets. \newline
+    For example, having the HTKS scoresheets for eight participants in one file would be like this: TA\_EM\_HTKS\_BATCH1\_13JUL2018 \newline  TA\_EM\_HTKS\_BATCH2\_13JUL2018, etc. 
+    \item Provide a document, uploaded into the same folder as the batch scanned scoresheets, that lists the PIDs associated with each Batch for ease of reference. 
+
+\end{itemize}
+
+\subsection {File Naming Exception for Experimenter Check and Pilot Videos}
+For purposes of training RAs, evaluting the execution of tasks, and assessing any site-specific issues with tasks, there is a process for providing feedback on filmed task sessions before data collection fully launches. This is described in ~\ref{sec:RAtraning} and ~\ref{sec:infield}. These videos are stored in separate folders on UT Box. Also, since the feedback is for individual RAs, the RA initials are also included in the file names. These are simply added at the end of the filename with a \_XX. 
+
+The tasks and fieldsites are assigned official project codes for use in filenames and other purposes. The task abbreviations are in Table~\ref{tab:taskabrev} and the fieldsite abbreviations are in Table~\ref{tab:siteabrev}. 
+\begin{table} [h!]
+  \begin{center}
+    \caption{Task Abbreviations for File Names\footnote{These are also found in the FileNaming spreadsheet on UT Box}}
+    \label{tab:taskabrev}
+    \begin{tabular}{S|S}
+      \toprule % <-- Toprule here
+      \textbf{Task or Data Type} & \textbf{Abbreviation}\\
+    %  $\alpha$ & $\beta$ & $\gamma$ \\
+      \midrule % <-- Midrule here
+% Biometric Data & health and demography \\
+Biometric & BIO \\
+Participant Survey & PARTSURV \\
+%Child Interview & CHINT \\
+Child Knot & CHIKNT \\
+Caregiver Knot & CRGKNT \\
+Chain Knot Teaching & CKNTTH \\
+Necklace Overimitation & NCKLOVIM \\
+Hook Task & HKTASK \\ 
+Academic Knoweldge & ACAKN \\ 
+Puzzle Overimitation & PZOVIM \\
+Phonological Recall & PHRE \\ 
+Marshmallow Task & MMT \\
+Queensland Task & QT \\
+Head Toes Knees Shoulders & HTKS \\
+%Adult Interview & ADINT \\
+Categorical Verbal & CATVB \\
+Teacher Interview & THINT \\
+Focal Follow & FOCF \\
+PID Registry & PID \\
+Walk Around survey & WALKA \\
+Household Assessment & House \\ 
+School Assessment & SCHLASS \\ 
+      \bottomrule % <-- Bottomrule here
+    \end{tabular}
+  \end{center}
+\end{table}
+
+\begin{table} [h!]
+  \begin{center}
+    \caption{Location or Fieldsite Abbreviations\footnote{These are also found in the FileNaming spreadsheet on UT Box}}
+    \label{tab:siteabrev}
+    \begin{tabular}{S|S}
+      \toprule % <-- Toprule here
+      \textbf{Task or Data Type} & \textbf{Abbreviation}\\
+    %  $\alpha$ & $\beta$ & $\gamma$ \\
+      \midrule % <-- Midrule here
+% Biometric Data & health and demography \\
+Aisle (Hamar), Ethiopia & AS \\
+Bantu, Congo & BA \\
+Database, Austin & DB \\
+Manipur, India & MA \\
+Queensland, Australia & QL \\
+Saltpond, Ghana & SP \\
+Tanna, Vanuatu & TA \\ 
+Thinkery, Austin & TH \\ 
+%Beijing, China & BE \\
+Sydney, Australia & SY \\
+ExtendaCare (Austin) & EC \\
+Natal, Brazil & NB \\
+Warani, Ecuador & WA \\
+%Mexico City, Mexico & MC \\
+Yucatec Penninsula, Mexico & YP \\
+San Cristobal, Bogota, Colombia	& SC \\
+Facatativia, Bogota, Colombia &	FA \\
+Mah Meri, Malaysia & MM \\
+Himba Twe, Namibia & HT \\
+Nyae Nyae (San), Namibia & NN \\
+
+      \bottomrule % <-- Bottomrule here
+    \end{tabular}
+  \end{center}
+\end{table}
+
+\subsection{About dates} 
+Each filename, regardless of if it ends in .xls, .pdf, .MP4, .doc, .jpg, requires a date in the name of the file. However, what date should the filename date capture? 
+It varies by the type of data in the file. Here are some guidelines: 
+
+For all data files (the *.xlsx files that contain entered data), file name dates are current dates. That is, the date of when the most recent edit to the file was made. Note that the date of when the data collection happened is preserved as rows within the datasheet. So the rationale is that date in the filename is about version control, while the date on each line of data is about data collection, progress tracking, or sleuthing out errors. 
+
+For all video files, file name dates are the date that the video was filmed. 
+
+For scans of scoresheets, the date in the filename is the date the file was uploaded to the UT Box folder (this is akin to the date of last modification). 
+
+Again for emphasis: \textbf{The file name date is about version control, not when the data were collected}, which is recorded in each row of data in the file.
+For videos or photos, the filename date should be the date of filming. 
+
+\subsection{Researcher initials}
+The researcher in the file name should be the lead researcher for the project. When naming files only the official project initials in the \href{https://utexas.app.box.com/folder/51257105589}{FileNaming spreadsheet} should be used.  Additional personnel can be added as necessary, but the initials in the filename are meant for each site's senior researcher. 
+Note that in every data entry template there is a `recorder' column. This can be the individual RA or whoever should be contacted for questions about that particular row of data.  
+ 
+\section{Missing Values}
+\label{sec:missing}
+Data can be missing for a variety of reasons. Codes have been developed to record some of the principle causes of missing data.  
+
+These are: 
+\begin{itemize}
+    \item $-1$: Didn't know - the participant didn't know the answer and `I don't know' wasn't a specified option on the questionnaire.
+    \item $-2$: Refused - the participant refused to participate or answer the question
+    \item $-3$: Not applicable - the question did not apply to this participant
+    \item $-4$: Missing data and no information. Any time a field is `just blank' and there is not a clear reason, this code applies. This is a `catchall' missing data code.
+    \item $-5$: The participant did not advance to the next level or stage of a particular task (see Queenland, Academic Knowledge Assessment, HTKS, for tasks where advancement to level n+1 is conditional on a score at level n).
+    \item $-6$: Experimenter error. Part of the experiment was run incorrectly. 
+
+\end{itemize}
+
+Note: These are meant to be negative numbers, i.e., `negative 1' and `negative 2' etc. the $-$ is a negative, not a bullet here. 
+If no information is available for why the data is missing, $-4$ should be used.  
+
+\section{Submitting .xlsx Files}
+As mentioned above, data are to be entered into data entry templates using the guidelines in the template's 'readme' tab and uploaded to UT Box to the appropriate folder. 
+In the handling of datasheets please note the following: 
+\begin{itemize}
+    \item make sure the 'tab' in the spreadsheet has the appropriate label.
+    \item please follow the file naming convention carefully 
+    \item in the data entry guidelines the year is always four digit year 
+    \item in any given column, only data of one type should be entered. If the data type for a column is numeric, do not add any text with it. Notes can go in the comments column for that row.
+    \item software has been developed (using R) that spot checks the files for basic errors and inconsistent entries. The software won't catch everything but will help make sure that the columns are consistent across fieldsites. Each collaborator will receive a report showing the errors in each spreadsheet, including which were repaired by the software and which remain. 
+\end{itemize}
+
+%\section{Data Handling Process}
+% in principle - more explanation for the process - uploading - cleaning - initial check - proper check - 
+
+\section{Quality Assurance \& Quality Control (QAQC)}
+\label{sec:qaqc}
+The purpose of this section is to describe the quality assurance/quality control (QAQC) process for Project EvoLearn data. This process is focally about checking data and videos for protocol deviations and violations, as well as checking the quality and consistency of all data types. The quality checks include fixing typos during data entry, but perhaps more importantly, is also about correcting and describing protocol deviations that may have occurred while administering the tasks. 
+
+Identifying such deviations serves at least two general purposes
+\begin{enumerate}
+    \item 1) Identifying systematic but minor deviations helps improve training programs for subsequent studies 
+    \item Analyzing the cleaned data will require detailed knowledge of how the protocols were followed and, in some cases, certain task-runs may need to be excluded
+\end{enumerate}
+
+In what follows, we present a baseline rationale for what constitutes a deviation from a protocol, how to track and identify them, and our guidelines for dealing with them. We then present a general view of the QAQC process and finish by summarizing the QAQC process for each task.  
+
+\subsection{General rationale about protocol deviations and violations}
+In any project that uses experimental methods, there are likely to be instances where experimenters make errors when administering tasks to participants. This is especially so when the project is a large, multi-site project involving many different experimenters and research assistants such as the EvoLearn project. For this reason we have distinguished protocol violations and deviations as a general project rule and subsequently for each task.
+
+\textit{Protocol deviation:} A protocol deviation occurs when, without significant consequences, the activities on a task diverge from the Institutional Review Board-approved (IRB) protocol. Deviations are not as serious as protocol violations. Single instances of protocol deviations typically do not render data ineligible, but an accumulation of multiple instances (multiple cases of the same or different deviations) within a task run may lead to the exclusion of all or part of a task run. 
+
+\textit{Protocol violation:} A violation is a divergence from the protocol that does any of the following: 
+\begin{enumerate}
+    \item reduces the quality or completeness of the data by introducing actions or utterances outside the protocol’s guidelines or making changes to the sequence of steps outlined in the protocol. This includes actions that compromise the comparability of data collected during a task.  
+    \item prevents the ability to complete the steps of the QAQC process outlined here. This includes a failure to live-code or film a task. 
+    \item makes Informed Consent inaccurate or invalid in any way.
+    \item impacts a subject's safety, rights, or welfare.
+\end{enumerate}
+ 
+Violations may lead to exclusion of all or part of some datasets. In most cases where exclusion is considered warranted, the excluded case will be one particular run of on an experimental task. However, in some cases this may mean the exclusion of larger portions of data, such as all or most of the data collected by a particular experimenter, or, potentially the exclusion of an entire task for a given fieldsite where the task(s) was run with regular and significant protocol violations.  
+
+\subsection{QAQC decisions} 
+The decision about when to include or exclude data is not taken lightly and will have a multi-tiered review by the core project team at UT-Austin. If and when there is uncertainty about whether an act is a violation or a deviation (and about precisely which instances warrant exclusion), the core team will meet to discuss as a group and confer upon a decision.
+
+With the above definitions in mind, during the QAQC process, the core team and RAs carefully examine videos from all tasks across all sites. Most tasks are video-recoded. For the non-video recorded tasks namely, the biometrics, participant survey, teacher survey and community survey, the core team assess the data inputted of $20\%$ of the entered data for typos, formatting issues and indicators that the measurements or questions were incorrectly administered, by reviewing individually and comparing, hard copy scoresheets to datasheet.xls files. 
+
+Before the QAQC process, the core team also runs spot checks of the data files for any typos, appropriate and consistent naming and appropriate consistency of file (data) content against the data dictionary. In addition to monitoring video data for protocol violations and deviations, the above steps in unison also allow us to assess the quality of field task administration by research assistants and project collaborators.
+
+\subsection{General QAQC guidelines}
+Each task has specific guidelines for what constitutes a deviation and violation as well as a set of definition of what reviewers code for when checking the video. Here, we outline general guidelines, which can be used as a checklist during the QAQC process for each task. We describe task-specific deviation and violation definitions further below.
+
+\subsubsection{Protocol Deviations: relatively minor mistakes that do not necessarily lead to data exclusion}
+\begin{itemize}
+    \item Anything off-script that the experimenter says to a participant during administering the protocol. Sometimes this cannot be avoided, such as when participants ask the experimenter questions. Experimenters are asked to remain as neutral as possible in all cases, and thus off-script interaction may not warrant exclusion.
+    \item If components of the task protocol are conducted in the incorrect order. For some tasks, this may not mean exclusion. 
+    \item Examples of plausible protocol deviations:
+    \begin{itemize}
+        \item The puzzlebox task protocol indicates that visual prompts should not be given while presenting the task materials, but in the video review of a task we see that a demonstrator has looked up at the participant and made eye-contact just after completing one of the actions. This is a protocol deviation and the number of times this happens during the task will be recorded for all project videos. In isolation this would not lead to data exclusion but excessive instances within or across tasks may potentially warrant exclusion.
+        \item Bending the string before bending the pipecleaner during the tube task demonstration. This is a protocol deviation as the protocol states the pipecleaner should be bent first.
+    \end{itemize}
+\end{itemize}
+
+
+
+\subsubsection{Protocol Violations: larger mistakes that likely do lead to data exclusion} 
+\begin{itemize}
+    \item If the experimenter gave any prompts to the participant during the task which would unquestionably facilitate/impact performance. This can be visual or verbal.
+    \item The experimenter fails to administer the task correctly according to the protocol.
+    \item Apparatus failures that render the data unusable. These include part/all of the task materials breaking during testing.
+    \item Major distractions or interruptions during task administration that would unquestionably impact performance.
+    \item Examples of plausible EvoLearn protocol violations: 
+    \begin{itemize}
+        \item Cases where an experimenter has allowed a participant to progress to a subsequent stage of a task where progression to the next stage is contingent on success in the previous. This applies to HTKS, academic knowledge, and Queensland tasks. If a participant did very well on the final stage of the HTKS but video review indicated that they should not have progressed that far because they failed to complete an earlier stage, the data recorded during the stages that they should not have progressed to would be excluded. 
+        \item The experimenter telling participants to wait until they have returned at the start of the marshmallow task instead of giving participants the choice of waiting or not.
+        \item Talking to the participant or waiting within view during the marshmallow task
+        \item A failure to video-record or adequately document the task metadata (participant ID, date, experimenter identity, etc.)
+    \end{itemize}
+ \end{itemize}
+
+Other things recorded during QAQC recoding:
+\begin{itemize}
+    \item If anyone is watching/observing the task who shouldn't be.
+    \item Any kind of distractions.
+    \item The ambient noise levels on a three point-scale. 0 = silent (typically in lab settings), 1 = low level background noise, or variable noise levels, 2 = constant background noise (school playgrounds, animals etc.).
+    \item Whether the experimenter and participant are in view of the camera at all times.
+    \item Extra comments for occurrences not captured in any of the above points. 
+\end{itemize}
+
+\subsubsection{Guidelines for Handling Exceptions} 
+The standard for Project EvoLearn is to live-code all tasks and to video record all tasks except biometrics, the participant survey, community survey, school assessment, and the teacher interview (although biometrics and participant survey should be filmed during experimenter training). A failure to do live coding or video recording of a task is a protocol violation that will typically result in the data for that task being excluded from analysis. However, there are some cases where special circumstances may apply and the following guidelines determine the conditions that need to be met when either a task was not video recorded or live-coding was not completed.  
+
+\subsubsection{A failure to video record:} 
+For non-video-recorded tasks to be included in the final dataset, all of the following conditions must apply: 
+\begin{itemize}
+    \item The reason that the tasks were not filmed is due to some technological failure, such as a technical problem with a SD card, camera or battery. 
+    \item The number of iterations of a task that was non-filmed is relatively small (e.g., below about 10 for a sample of about 100). If none of the runs of a given task were filmed then the entire set will be excluded. There must be a way to verify the data (see protocol violations, above). 
+    \item The RA who collected data in the non-video-recorded tasks has successfully completed many other task-runs with participants where both the live-coding scoresheet and the film are available. A core-team member has taken the film and checked the live coding for a sample of 30 or more of these runs and found an IRR Kappa of 0.8 or greater. 
+    \item If these conditions are met, then the live-coded task runs for the non-filmed tasks may be included in the final dataset. If any of these conditions are not met, then the data are considered protocol violations and must be excluded. 
+\end{itemize}
+
+\subsubsection{A failure to live-code:}   
+Live coding should always be done. For cases where there are no live-coded scoresheets available the following guidelines determine if the resulting data can be included in the final dataset.
+\begin{itemize}
+    \item The video data is of sufficient quality that it can be used to code the required behaviors (including verbal interactions) on the scoresheet, but these behaviors should be clearly observed on the film. If any part of the relevant material or behavioral sequence (for example experimental apparatus/experimenters' actions during a demonstration) is not in clear view of the camera then that task run should be excluded. The video must be of sufficient quality that all the relevant behavior(s) can be clearly observed and therefore scored. 
+    \item If an RA with an exceptionally high and verifiable ability to run tasks had made arrangements with the core team a-priori and has approval from the site-leader, the films from the resulting task runs may be used on this limited basis. The behaviors that can be included in the post-hoc video-only coding will vary by task, but these are to be only clearly observable behaviors as stated in the previous point. 
+    \item If either of these conditions are met, then the video-coded task runs for the non-live scored tasks may be included in the final dataset, provided they pass relevant quality checks. If these conditions are not met, then the data are considered protocol violations and must be excluded.
+\end{itemize}
+
+
+\subsection{QAQC processes by task}
+Detailed instructions, including checklists, protocols, and tracking spreadsheets, are stored on UT Box for each task. In general, please not that the nature of the task-specific QAQC checking and any recoding varies by the nature of the task. The kinds of review a given task will receive falls into the following three general categories: 
+\begin{enumerate}
+    \item a spot-check for typos and data consistence (primarily for non-video-recorded tasks)\\
+    The aim of spot checks is to ensure that data is entered correctly, to check for any typos or instances where a variables' definition was misunderstood or coded incorrectly. The procedure for spot-checks is typically to randomly sample 20\% of the rows in the data file and check for errors. If more than two errors are found in this sample, then then that task should be checked for 100\% of the entries. 
+    \item a full recode based on the videos for the task, using the task-specific QAQC coding rubric\\
+    Members of the UT Austin core-team review all videos for a given task per site and completes the QAQC coding. This includes re-coding the behaviors that were live-coded as well as additional behaviors from the QAQC coding rubric. The recoded scoresheets will also be used to assess quality/reliability of original data entered by field experimenters. 
+    \item a full recode using the QAQC coding rubric plus additional coding using an ethogram (for cases where behaviors are coded from the video which are not included in the live-coding protocols)\\ 
+    This includes the same process as described for a full recode. Additionally, further task-specific behaviors not originally included in the scoresheet are coded from the video using an ethogram. 
+    
+\end{enumerate} 
+
+
+
+
+

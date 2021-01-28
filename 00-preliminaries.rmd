@@ -1,0 +1,11 @@
+
+# Preliminaries {-}
+
+# Executive Summary {#execsum}
+
+```{r}
+#library(pandoc)
+library(bookdown)
+```
+# Other preliminary stuff
+
